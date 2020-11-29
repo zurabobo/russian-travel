@@ -1,0 +1,11 @@
+.place__website {
+    grid-column: 2;
+    align-self: end;
+    grid-row: 1;
+}
+
+@media screen and (max-width: 320px) {
+.place__website:nth-child(3) {
+    display: none;
+}
+}
