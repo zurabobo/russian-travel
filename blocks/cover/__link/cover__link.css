@@ -21,7 +21,7 @@
     opacity: .8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .cover__link::before {
         width: 100vw;
         height: 62.5vw;
