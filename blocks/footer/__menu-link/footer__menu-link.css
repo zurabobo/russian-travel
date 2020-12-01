@@ -5,8 +5,8 @@
     list-style: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .footer__menu-link {
-        display: inline-block;
+        flex-direction: column;
     }
 }

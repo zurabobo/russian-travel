@@ -1,25 +1,22 @@
 .header__lang-link {
-    margin: 18px 18px 6px 0;
+    margin-right: 18px;
     color: white;
     font-size: 24px;
     line-height: 28px;
     font-weight: normal;
+    text-decoration: none;
 }
 
 .header__lang-link:hover {
     text-decoration: underline;
-}
-
-.header__lang-link:active {
-    text-decoration: underline;
+    opacity: .8;
 }
 
 .header__lang-link:last-of-type {
-    margin-right: 0;
-    text-decoration: none;
+    margin-right: 0;  
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
