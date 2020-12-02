@@ -1,9 +1,9 @@
-.header__menu {
+.header__lang {
     margin: 18px 0 6px;
 }
 
 @media screen and (max-width: 767px) {
-    .header__menu {
+    .header__lang {
         margin: 14px 0 8px;
     }
 }

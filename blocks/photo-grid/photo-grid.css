@@ -1,9 +1,13 @@
 .photo-grid {
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fill, 284px);
     gap: 16px;
     padding-bottom: 92px;
     max-width: 1184px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: 0 auto;
 }
 

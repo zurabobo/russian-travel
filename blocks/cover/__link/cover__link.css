@@ -8,7 +8,7 @@
     background-size: cover;
     z-index: 1;
     text-decoration: none;
-    height: 740px;
+    min-height: 740px;
     color: white;
 }
 
@@ -30,6 +30,6 @@
 
 @media screen and (max-width: 1279px) {
     .cover__link {
-        height: 62.5vw;
+        min-height: 62.5vw;
     }
 }

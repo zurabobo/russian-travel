@@ -1,3 +1,7 @@
-.header__lang-link_active:active {
-    text-decoration: underline;
-}
+    .header__lang-link_active:active {
+        text-decoration: underline;
+    }
+
+    .header__lang-link_active:focus {
+        text-decoration: underline;
+    }
